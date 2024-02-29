@@ -1,83 +1,27 @@
-# Classification-Models
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html> <html> <head> <title>Classification Models</title> </head> <body> <h1>Classification Models</h1> <h2>Project Description</h2> <p>Classification Algorithms Project
+This notebook contains code to analyze and compare different classification algorithms on a student admissions dataset.
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FIFA Rankings Data Analysis</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-            max-width: 800px;
-            margin-left: auto;
-            margin-right: auto;
-        }
+Data
+The dataset used is 'Admission_Predict_Classification.csv', which contains several attributes about students along with their admission status (yes/no).
 
-        h1, h2, h3 {
-            color: #2c3e50;
-        }
+Algorithms
+The following classification algorithms are implemented and their performance compared:
 
-        p {
-            color: #34495e;
-        }
+Random Forest
+Support Vector Machine (SVM)
+Logistic Regression
+Decision Tree
+Analysis
+The dataset is first loaded and cleaned. It is then split into training and test sets.
 
-        h1 {
-            border-bottom: 2px solid #2c3e50;
-            padding-bottom: 10px;
-            margin-bottom: 20px;
-        }
+Each algorithm is trained on the training set and then used to make predictions on the test set. The model performance is evaluated using metrics like accuracy, precision, recall and F1 score.
 
-        h2 {
-            color: #2980b9;
-        }
+A bar plot is also generated to visually compare the F1 scores of the different algorithms.
 
-        h2, h3 {
-            border-bottom: 1px solid #ecf0f1;
-            padding-bottom: 5px;
-            margin-top: 20px;
-            margin-bottom: 10px;
-        }
+Future Improvements
+Some potential ways to improve the analysis:
 
-        pre {
-            background-color: #f1f1f1;
-            padding: 10px;
-            border-radius: 5px;
-            overflow-x: auto;
-        }
-    </style>
-</head>
-
-<body>
-
-    <h1>FIFA Rankings Analysis</h1>
-
-    <h2>Project Description</h2>
-
-    <p>This project analyzes the FIFA men's national team rankings dataset from 1993 to 2020 to gain insights into trends over time. Python libraries like pandas, numpy, and matplotlib are used for data loading, cleaning, exploration, and visualization.</p>
-
-    <h2>Data</h2>
-
-    <p>The FIFA rankings monthly dataset from August 1993 to August 2020 containing over 15,000 data points is used. Features include date, team name, ranking, points, etc.</p>
-
-    <h2>Data Processing</h2>
-
-    <p>The data is loaded into a pandas DataFrame and preprocessed/cleaned. Invalid or duplicate records are dropped.</p>
-
-    <h2>Exploratory Analysis</h2>
-
-    <p>Basic descriptive statistics and aggregations are performed to understand trends in rankings, points, etc., over time.</p>
-
-    <h2>Visualization</h2>
-
-    <p>Various plots like line plots, histograms are created using matplotlib to better visualize patterns and relationships in the data.</p>
-
-    <h2>Conclusion</h2>
-
-    <p>Key insights from the analysis are summarized. Potential areas for future extensions discussed.</p>
-
-</body>
-
-</html>
+Try additional/different algorithms
+Perform parameter tuning
+Add data preprocessing/feature engineering
+Implement cross-validation.</p> <h2>Data</h2> <p>The dataset used is 'Admission_Predict_Classification.csv', which contains several attributes about students along with their admission status (yes/no)..</p> <h2>Data Processing</h2> <p>The data is loaded into a pandas DataFrame and preprocessed/cleaned. Invalid or duplicate records are dropped.</p> <h2>Exploratory Analysis</h2> <p>Basic descriptive statistics and aggregations are performed to understand trends in rankings, points etc over time.</p> <h2>Visualization</h2> <p>Various plots like line plots, histograms are created using matplotlib to better visualize patterns and relationships in the data.</p> <h2>Conclusion</h2> <p>Key insights from the analysis are summarized. Potential areas for future extensions discussed.</p> </body> </html>
